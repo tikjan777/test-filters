@@ -40,7 +40,6 @@ class RecordTable extends Component {
     }
 
 
-
     render() {
         const { sortedBy } = this.props;
         if (sortedBy === "name") {
